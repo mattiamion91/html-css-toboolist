@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*body rules*/
+
+body {
+    background-color: rgb(246, 248, 250);
+    font-family: "Inter", sans-serif;
+}
+
+/*header rules*/
+
+.header-bar .header-title {
+    display: inline;
+    vertical-align: middle;
+}
+
+.header-bar .logo {
+    vertical-align: middle;
+}
+
+.header-bar {
+    height: 75px;
+    line-height: 75px;
+    background-color: white;
+    padding-left: 20px;
+}
