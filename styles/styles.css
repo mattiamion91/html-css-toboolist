@@ -63,3 +63,31 @@ body {
 
 /*un-ordered-list rules*/
 
+.main-list {
+    padding-left: 50px;
+    padding-top: 40px;
+    line-height: 40px;
+}
+
+.custom-bullet-down {
+    list-style-type: disclosure-open;
+}
+
+.secondary-list {
+    padding-left: 50px;
+}
+
+.custom-bullet-check {
+    list-style-type:;
+
+}
+
+.custom-bullet-cross {
+
+}
+
+span .editorial {
+    background-color: rgb(75, 169, 230);
+    font-size: 1px;
+    border-radius: 5px;
+}

@@ -16,7 +16,7 @@
 <body>
     <!--logo-and-title-->
     <header>
-        <div class="header-bar" class="wrapper">
+        <div class="header-bar wrapper">
             <img class="logo" src="./img/logo-trasparente.png" alt="logo">
             <h1 class="header-title">Toboolist</h1>
         </div>
@@ -31,15 +31,34 @@
             </section>
             <!--un-ordered-list-->
             <section class="main-list">
-                <ul>
+                <ul class="custom-bullet-down">
                     <li>
-                        New task
-                        <ol>
-                            <li>
-                                Quaterly Newsletter Editorial
-                            </li>
-                        </ol>
-            
+                        <strong class="title-main-list">New Task</strong>
+                        <ul class="secondary-list">
+                            <li class="custom-bullet-check">Quaterly Newsletter <span class="editorial">Editorial</span></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="custom-bullet-down">
+                    <li>
+                        <strong class="title-main-list">Today</strong>
+                        <ul class="secondary-list">
+                            <li class="custom-bullet-check">Recruiting blog post <span class="editorial">Editorial</span></li>
+                            <li class="custom-bullet-check">Mobile app Launch Q1 Goals</li>
+                            <li calss="custom-buller-cross">Interview John H. Recruiting</li>
+                            <li class="custom-bullet-check">Summit Update to mobile storefornts Mobile</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="custom-bullet-down">
+                    <li class="custom-bullet-check">
+                        <strong class="title-main-list">Upcoming</strong>
+                        <ul class="secondary-list">
+                            <li calss="custom-buller-cross">Schedule meeting with Alex</li>
+                            <li class="custom-bullet-check">Homepage refresh Website</li>
+                            <li class="custom-bullet-check">Onboard new Sales team members Sales</li>
+                            <li class="custom-bullet-check">Review editorial calendar <span class="editorial">Editorial</span></li>
+                        </ul>
                     </li>
                 </ul>
 
