@@ -11,6 +11,8 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+/*utility rules*/
+
 /*header rules*/
 
 .header-bar .header-title {
@@ -48,10 +50,13 @@ body {
 
 #task-button {
     background-color: rgb(74, 170, 235);
-    font-size: 1rem;
     border-radius: 5px;
     color: white;
     border-color: white;
+    font-size: 10px;
+    padding: 0px 0px;
+    height: 35px;
+    width: 75px;
 }
 
 #section-button {
@@ -59,6 +64,10 @@ body {
     color: gray;
     border-radius: 5px;
     border-color: gray;
+    font-size: 10px;
+    padding: 0px 0px;
+    height: 35px;
+    width: 100px;
 }
 
 /*un-ordered-list rules*/
@@ -77,17 +86,24 @@ body {
     padding-left: 50px;
 }
 
-.custom-bullet-check {
-    list-style-type:;
-
-}
-
-.custom-bullet-cross {
-
-}
-
-span .editorial {
+.editorial {
     background-color: rgb(75, 169, 230);
-    font-size: 1px;
-    border-radius: 5px;
+    border-radius: 7px;
+    color: white;
+}
+
+.prova {
+    background-color: rgb(156, 125, 219);
+    border-radius: 7px;
+    color: white;
+}
+
+.q1-goals {
+    font-size: 5px;
+}
+
+.recruiting {
+    background-color: rgb(100, 193, 169);
+    border-radius: 7px;
+    color: white;
 }
