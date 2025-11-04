@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*body rules*/
 
 body {
@@ -27,3 +28,38 @@ body {
     background-color: white;
     padding-left: 20px;
 }
+
+/*central body rules*/
+
+.central-body {
+    background-color: white;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+/*button  rules*/
+
+.button {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#task-button {
+    background-color: rgb(74, 170, 235);
+    font-size: 1rem;
+    border-radius: 5px;
+    color: white;
+    border-color: white;
+}
+
+#section-button {
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    border-color: gray;
+}
+
+/*un-ordered-list rules*/
+
