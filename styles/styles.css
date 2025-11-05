@@ -82,8 +82,21 @@ body {
     list-style-type: disclosure-open;
 }
 
+.green-check { 
+    color: green;
+    border: solid 2px green;
+    border-radius: 50%;
+}
+
+.red-cross { 
+    color: red;
+    border: solid 2px red;
+    border-radius: 50%;
+}
+
 .secondary-list {
-    padding-left: 50px;
+    padding-left: 0px;
+    list-style-type: none;
 }
 
 .editorial {
